@@ -1,0 +1,3 @@
+- App.config: Khi khai báo phải theo thứ tự: configSections => startup => log4net
+- File log được khai báo ở <file value="log.log"/> trong App.config
+- Program.cs: Ở function Main cần thêm source log4net.Config.XmlConfigurator.Configure();
